@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "booking_order",
+    'name': "Booking Order",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Booking Order App with odoo-14""",
 
     'description': """
-        Long description of module's purpose
+        Booking Order App with odoo-14
     """,
 
-    'author': "My Company",
+    'author': "Iqbal Maulana",
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -18,6 +17,7 @@
     # for the full list
     'category': 'Sales',
     'version': '0.1',
+    'application': True,
 
     # any module necessary for this one to work correctly
     'depends': ['base','sale', 'sale_management'],
